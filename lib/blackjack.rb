@@ -49,5 +49,12 @@ end
 def runner
   initial_round
   prompt_user
+  if get_user_input == 's'
+    prompt_user
+  else
+    deal_card
+    display_card_total
 end
+  # if card_total > 21
+    
     
