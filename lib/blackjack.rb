@@ -25,10 +25,10 @@ end
 
 def initial_round
   sum = deal_card + deal_card 
-    sum
+    puts sum
   display_card_total(sum)
     print sum
-    puts sum
+    return sum
 end
 
 def hit?(number)
