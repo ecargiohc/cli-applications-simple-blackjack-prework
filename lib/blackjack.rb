@@ -32,6 +32,9 @@ end
 def hit?(number)
   prompt_user
   get_user_input
+  if get_user_input == 'h'
+    deal_card 
+  elsif get_user_input != 'h' && 's'
   "Please enter a valid command"
 end
 
