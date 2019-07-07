@@ -26,10 +26,10 @@ end
 def initial_round
   deal_card
   deal_card
-    return "#{sum}"
+    return sum
   display_card_total
-    puts "#{sum}"
-    print "#{sum}"
+    puts sum
+    print sum
 end
 
 def hit?(number)
