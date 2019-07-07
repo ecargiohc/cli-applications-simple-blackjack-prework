@@ -17,7 +17,7 @@ def prompt_user
 end
 
 def get_user_input
-  
+  gets
 end
 
 def end_game
