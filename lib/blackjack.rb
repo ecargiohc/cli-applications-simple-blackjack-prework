@@ -48,5 +48,6 @@ end
 
 def runner
   initial_round
+  prompt_user
 end
     
