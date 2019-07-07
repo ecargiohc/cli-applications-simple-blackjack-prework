@@ -24,8 +24,7 @@ def end_game(card_total)
 end
 
 def initial_round
-  deal_card
-  deal_card
+  deal_card + deal_card
     return sum
   display_card_total
     puts sum
@@ -33,7 +32,8 @@ def initial_round
 end
 
 def hit?(number)
-  # code hit? here
+  prompt_user
+  get_user_input
 end
 
 def invalid_command
