@@ -7,10 +7,9 @@ def deal_card
 end
 
 def display_card_total(card_total)
-
   print card_total
-
 end
+ print card_total
 
 def prompt_user
   # code #prompt_user here
