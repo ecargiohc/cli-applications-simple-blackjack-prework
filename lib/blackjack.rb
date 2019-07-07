@@ -55,6 +55,7 @@ def runner
     deal_card
     display_card_total
 end
+end
   # if card_total > 21
     
     
