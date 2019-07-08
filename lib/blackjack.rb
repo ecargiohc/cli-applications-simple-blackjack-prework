@@ -51,7 +51,7 @@ end
 def runner
   welcome
   initial_round
-  # hit?
+  hit?
   # display_card_total
   # input = get_user_input 
   # if input == 's'
