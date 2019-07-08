@@ -49,10 +49,10 @@ end
 #####################################################
 
 def runner
-  until hit? > 21
   welcome
   initial_round
   hit?(card_total)
+  display_card_total
   # until hit? > 21
   end_game
 end
