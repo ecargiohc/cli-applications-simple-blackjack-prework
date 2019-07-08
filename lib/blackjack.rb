@@ -54,7 +54,7 @@ def runner
   input = get_user_input 
   if input == 's'
     prompt_user
-  else
+  elsif input == 'h'
     deal_card
     display_card_total
 end
