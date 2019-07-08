@@ -39,7 +39,7 @@ def hit?(card_total)
   elsif 
     card_total
   end
- return new
+# return new
 end
 
 def invalid_command
