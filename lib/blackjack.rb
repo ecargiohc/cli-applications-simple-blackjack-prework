@@ -49,8 +49,10 @@ end
 #####################################################
 
 def runner
+  welcome
   initial_round
-  prompt_user
+  hit?
+  display_card_total
   input = get_user_input 
   if input == 's'
     prompt_user
