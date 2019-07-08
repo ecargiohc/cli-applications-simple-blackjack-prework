@@ -54,7 +54,6 @@ def runner
   hit?
   until hit? > 21
 end_game
- 
 end
 
   
