@@ -51,7 +51,8 @@ end
 def runner
   initial_round
   prompt_user
-  if get_user_input == 's'
+  input = get_user_input 
+  if input == 's'
     prompt_user
   else
     deal_card
