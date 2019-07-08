@@ -61,6 +61,5 @@ def runner
       end
 end
 end
-  # if card_total > 21
-    
+  
     
