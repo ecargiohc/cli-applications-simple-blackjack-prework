@@ -50,8 +50,8 @@ end
 
 def runner
   welcome
-  initial_round
-  hit?
+  # initial_round
+  # hit?
   # display_card_total
   # input = get_user_input 
   # if input == 's'
