@@ -56,7 +56,9 @@ def runner
     prompt_user
   elsif input == 'h'
     deal_card
-    display_card_total
+    card_total = display_card_total
+      if card_total > 21
+      end
 end
 end
   # if card_total > 21
