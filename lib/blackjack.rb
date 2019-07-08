@@ -49,6 +49,7 @@ end
 #####################################################
 
 def runner
+  until hit? > 21
   welcome
   initial_round
   hit?
