@@ -53,7 +53,7 @@ def runner
   initial_round
   hit?
   until hit? > 21
-end_game
+  end_game
 end
 
   
