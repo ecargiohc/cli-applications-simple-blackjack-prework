@@ -52,15 +52,15 @@ def runner
   welcome
   initial_round
   hit?
-  display_card_total
-  input = get_user_input 
-  if input == 's'
-    prompt_user
-  elsif input == 'h'
-    deal_card
-    card_total = display_card_total
-      if card_total > 21
-      end
+  # display_card_total
+  # input = get_user_input 
+  # if input == 's'
+  #   prompt_user
+  # elsif input == 'h'
+  #   deal_card
+  #   card_total = display_card_total
+  #     if card_total > 21
+  #     end
 end
 end
   
